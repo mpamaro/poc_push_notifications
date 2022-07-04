@@ -33,7 +33,8 @@ Future<void> receiveFirebaseBackgroundNotification(
     RemoteMessage message) async {
   final notification = message.notification;
 
-  if (notification != null) {
+  /// TODO: This should be changed to be notification == null, so it won't display twice.
+  if (notification == null) {
     final data = message.data;
 
     await AwesomeNotifications().createNotification(
