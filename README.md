@@ -1,16 +1,8 @@
-# poc_push_notifications
+# POC - Push Notifications in Flutter
 
-A new Flutter project.
+A Proof of Concept (POC) that was created to check if it's possible to use Awesome Notifications features alongside with the Firebase Cloud Messaging (FCM) service on Push Notifications.
 
-## Getting Started
+- https://pub.dev/packages/awesome_notifications
+- https://firebase.flutter.dev/docs/messaging/overview/
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Click here](readme/PocPushNotifications.gif) to see a GIF that shows all working perfectly.
